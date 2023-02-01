@@ -1,0 +1,162 @@
+1)What are python modules?
+
+* A Python module is a file containing Python definitions and statements.
+* A module can define functions, classes, and variables. 
+* A module can also include runnable code.
+* Consider a module to be the same as a code library.
+
+2)What are the built-in data-types in Python?
+
+-> Built-in Data types are those data types that are pre-defined by the programming language.
+* Binary Types: memoryview, bytearray, bytes.
+* Boolean Type: bool.
+* Set Types: frozenset, set.
+* Mapping Type: dict.
+* Sequence Types: range, tuple, list.
+* Numeric Types: complex, float, int.
+* Text Type: str.
+
+3) Difference between mutable and immutable data types in python?
+
+MUTABLE :-
+*The objects can be modified after the creation as well
+*Classes that are mutable are not considered final
+*Thread unsafe
+*Example: Lists, Dicts, Sets, User-Defined Classes, Dictionaries, etc
+
+IMMUTABLE :-
+*Objects can not be modified after the creation of the objects
+*Classes that are immutable are considered final
+*Thread-safe
+*Example: int, float, bool, string, Unicode, tuple, Numbers, etc
+
+4)What is name space in Python?
+
+- A namespace is a collection of currently defined symbolic names 
+  along with information about the object that each name references.
+- Namespace is a way to implement scope
+- There are three types of Python namespaces- global, local, and built-in.
+
+5)What is the difference between list and tuples in Python?
+
+LIST:-
+
+* You can use Python lists to store data of multiple types simultaneously
+* Lists are dynamic
+* Lists are mutable
+* Lists are ordered
+* list are homogeneous[same type of value stored in a list]
+* An index is used to traverse a list
+
+TUPLE:-
+
+* Tuples are used to store heterogeneous and homogeneous data
+* Tuples are immutable in nature.
+* Tuples are ordered
+* An index is used to traverse a tuple
+* Tuples are similar to lists. It also preserves the data sequence.
+* As tuples are immutable, they are faster than the list because they are static.
+
+6)What are local variables and global variables in Python?
+
+local variable:-Local variables in python are those variables that are declared inside the function,and 
+can only be used inside the function.A user can only access a local variable inside the function but never outside it.
+
+global variable:- variables that are created outside of a function are known as global variable.
+Global variables can be used by everyone, both inside of functions and outside.
+
+7) What do *args and **kwargs mean?
+
+ => *args (Non-keyword Arguments/Positional Arguments) –
+
+- *args which allows the user to pass a multiple number of arguments to the function.
+- Python *args allows only Positional Arguments.
+- *args allows a function to accept any number of positional arguments
+ i.e. arguments that are non-keyword arguments, variable-length argument list.
+
+=> **kwargs (Keyword Arguments) –
+
+- Python *kwargs allows only Keyword Arguments
+- **kwargs is a special syntax that allows us to pass a variable length of keyword arguments to the function.
+- Keyword arguments are like a dictionary, which maps the value to its associated key.
+
+8)How is memory managed in Python?
+-Memory in Python is managed by Python private heap space.
+ All Python objects and data structures are located in a private heap.
+ This private heap is taken care of by Python Interpreter itself, 
+ and a programmer doesn't have access to this private heap.
+
+9)What are the key features of Python?
+
+* Easy to learn,read and maintain
+* Open source and free
+* Interpreted
+* Highly Portable
+* Object-Oriented and Procedure-Oriented
+* Highly dynamic
+* Support for other language
+* Easy to Code
+* High-level programming language
+* Extensive library support
+
+10)What type of language is python? 
+
+* Python is an interpreted, interactive, object-oriented programming language.
+
+11) How is Python an interpreted language? 
+
+- Python is an interpreted language, which means the source code of a Python program is converted into bytecode 
+that is then executed by the Python virtual machine. 
+Python is different from major compiled languages, such as C and C + +, 
+as Python code is not required to be built and linked like code for these languages.
+- interpreter means you donot need to compile your programme before exicuting it
+
+12) What are data structures?
+
+- A data structure is a storage that is used to store and organize data.
+- It is a way of arranging data on a computer so that it can be accessed and updated efficiently.
+- A data structure is not only used for organizing the data.
+- It is also used for processing, retrieving, and storing data. 
+
+13) Major Differences between python 2 and python 3
+
+PYTHON2 :-
+
+* Python 2 was released in the year 2000
+* In Python 2, print is considered to be a statement and not a function
+* In Python 2, exceptions are enclosed in notations
+* Python 2 has more complicated syntax than Python 3
+* Python 2 was mostly used to become a DevOps Engineer. It is no longer in use after 2020.
+* Python 2 codes can be ported to Python 3 with a lot of effort
+* In Python 2, strings are stored as ASCII by default
+
+PYTHON3 :-
+
+* Python 3 was released in the year 2008
+* In Python 3, print is considered to be a function and not a statement
+* In Python 3, exceptions are enclosed in parentheses
+* Python 3 has an easier syntax compared to Python 2
+* Python 3 is used in a lot of fields like Software Engineering, Data Science, etc
+* Python 3 is not backward compatible with Python 2
+* In Python 3, strings are stored as UNICODE by default
+
+14) What is type conversion?
+
+* The process of converting a Python data type into another data type is known as type conversion
+* There are mainly two types of type conversion methods in Python, namely, implicit type conversion and explicit type conversion
+* Implicit type conversion is performed by a Python interpreter only
+* Explicit type conversion is performed by the user by explicitly using type conversion functions in the program code
+* Explicit type conversion is also known as typecasting
+
+15) What are the applications of python?
+
+- Web Applications
+- Desktop GUI Applications
+- Console-based Application
+- Business Applications
+- Audio or Video-based Applications
+- Scientific and Numeric
+- Software Development
+- Game Development
+- Data Science and Data Visualization
+- CAD Applications
